@@ -1,0 +1,31 @@
+<div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-2">
+		<img src="villas.png" class="img img-responsive">
+
+	</div>
+
+	<div class="col-sm-2">
+		<img src="paint.png" class="img img-responsive">
+		
+	</div>
+
+	<div class="col-sm-2">
+		<img src="s.png" class="img img-responsive">
+		
+	</div>
+
+	<div class="col-sm-2">
+		<img src="php.png" class="img img-responsive">
+		
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-2"> <h5>PSD Template</h5></div>
+	<div class="col-sm-2"> <h5>Printing Item</h5></div>
+	<div class="col-sm-2"> <h5>HTML 5</h5></div>
+	<div class="col-sm-2"> <h5>PHP Developing</h5></div>
+</div>

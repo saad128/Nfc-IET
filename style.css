@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+	header
+		{
+			background-color:#2C35A4;
+			height: 150px;
+			width: 100%;
+			color:white;
+		}
+		#icon{
+			float: left;
+			width: 100px;
+			
+		}
+		#menu
+		{
+			float: right;
+			min-width: 70%;
+			
+			
+		}
+		
+		ul li 
+		{
+			float: left;
+			font-size: 15px;
+			list-style-type: none;
+			padding: 10px;
+			
+		}
+		
+		#searchbar
+		{
+			
+			float: right;
+		}
+		input
+		{
+			background-color:#E8E0E0;
+				border:0px;
+			border-radius: 15px;
+			width: 200px;
+			height: 25px;
+		 background-image: url('header_search.png') ;
+			background-repeat: no-repeat;
+			background-position: right;
+			
+		}
+
+		
+		#menubar
+		{
+			float: right;
+		}
+#menusmall
+{
+	display: none;
+}
+
+
+#navmobile
+{
+	display: none;
+}
+		
+@media screen and (max-width: 1260px)
+{
+	
+	
+		
+		ul li 
+		{
+			float: left;
+			font-size: 13px;
+			
+			padding: 7px;
+			
+		}
+		
+		
+		
+		
+
+	
+}
+@media screen and (max-width: 1050px)
+{
+	
+		
+		ul li 
+		{
+			float: left;
+			font-size: 10px;
+			
+			padding: 10px;
+			
+		}
+		
+		
+		
+		
+		
+	
+	
+}
+
+@media screen and (max-width: 1000px)
+{
+	
+		ul li 
+		{
+			float: left;
+			font-size: 10px;
+			
+			padding: 7px;
+			
+		}
+		
+		
+		
+		
+		
+	
+	
+}
+
+@media screen and (max-width: 900px)
+{
+	
+		
+		
+		#menusmall
+	{
+		display: block;
+	}
+	#menubar
+	{
+		display: none;
+	}
+	header
+	{
+		height: 200px;
+	}
+	
+	img
+	{
+		width: 10px;
+		height: 10px;
+	}
+	
+		
+		
+		
+	
+	
+}
+
+@media screen and (max-width: 500px)
+{
+	
+		
+		
+		#menusmall
+	{
+		display: block;
+	}
+	#menubar
+	{
+		display: none;
+	}
+	header
+	{
+		height: 400px;
+	}
+	
+	ul li 
+	{
+		float: none;
+	}
+	
+		
+	#deskheader
+	{
+		display: none;
+	}
+	#navmobile
+	{
+		display: block;
+	}
+		
+	
+	
+}
+
